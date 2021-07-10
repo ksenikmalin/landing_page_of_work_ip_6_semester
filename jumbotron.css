@@ -1,0 +1,21 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+.jumbotron{
+  background-color: #2a247e;
+  border-radius: 0;
+  color: aliceblue;
+
+}
+
+p{
+  text-indent: 20px;
+  text-align: justify;
+}
+@media (max-width:600px) {
+	.jumbotron img{
+	display: none;
+	}
+  }
+  
